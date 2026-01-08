@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # mettre du contenu hmtl grace au markdown 
-st.markdown("<h1 style='text-align: center; color: black;'>MY DATA APP</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: black;'>MY DATA APP by sa</h1>", unsafe_allow_html=True)
 
 #  par defaut unsafe_allow_html est a false comme ci-dessous pour
 st.markdown("""
@@ -42,5 +42,6 @@ for i in range(1,6):
 
 
  
+
 
 
